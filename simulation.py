@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
     for t in thread_L:
         t.start()
-
+ 
     #create some send events
     for i in range(5):
         priority = i%2
